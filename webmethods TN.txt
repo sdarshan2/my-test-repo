@@ -1,0 +1,40 @@
+1.Define webMethods Trading Partner agreements(TPAs) ?
+
+Answer-1: Administrator
+ 
+Optionally, you can define trading partner agreements for pairs of partners. Each TPA contains specific information for two trading partners, where one partner represents a sender and the other represents the receiver. You can create applications that use TPA information to tailor how documents are exchanged.
+
+Each TPA must have a unique combination of the following:
+
+Partner that represents the sender
+
+Partner that represents the receiver
+
+Type of TPA, represented by the "Agreement ID"
+
+
+2.How do we create and use processing Rules in Trading Networks ?
+
+Answer-1: Administrator
+When you add a new processing rule, you have three Add ?? options for processing rules: you can add it above or below an existing processing rule or add the new rule to the bottom of the processing rules list. Set the sender, Receiver and document type in criteria tab. select the service execution task(check box) in  Action tab.
+
+3.How to send Documents (XML, EDI) to Trading Networks ?
+
+Answer-1: Administrator
+using http protocol
+
+Q.6: What service is used to send Documents to Trading networks ?
+
+Answer-1: Tomas
+wm.tn:receive
+
+10: What is a canonical document ?
+
+Answer-1: Pavan
+A Canonical document is a standardized representation that a document might assume while it is passing through the webMethods Integration Platform. A canonical document acts as the intermediary data format between resources. For example, in an implementation that accepts purchase orders from companies, one of the steps in the process converts the purchase order document to a company's standard purchase order format. This format is called the 'canonical' form of the purchase order document. The canonical document is published, delivered, and passed to services that process purchase orders.
+
+
+There are 3 components EDI
+WM EDI Package
+WM EDI TN Package
+WM EDIINT Package
